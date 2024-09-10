@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "tws_holy_grab"
+version = "0.0.1"
+description = "A simple tool to scrap tweets \u0026 repost them in tg"
+authors = [
+  "edazizovv",
+]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "tws_holy_grab"}]
+
+[tool.poetry.dependencies]
+python = "^3.12"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
